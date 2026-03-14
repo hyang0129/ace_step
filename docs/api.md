@@ -3,7 +3,7 @@
 ## Client
 
 ```python
-from app.client import AceStepClient, TaskResult, AceStepError, AceStepTimeout
+from ace_step.client import AceStepClient, TaskResult, AceStepError, AceStepTimeout
 ```
 
 ### AceStepClient
@@ -43,7 +43,7 @@ from app.client import AceStepClient, TaskResult, AceStepError, AceStepTimeout
 ## Presets
 
 ```python
-from app.presets import get_preset, list_presets
+from ace_step.presets import get_preset, list_presets
 ```
 
 | Function | Returns | Description |

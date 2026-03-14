@@ -7,7 +7,7 @@ by ID instead of crafting a raw description every time.
 
 from __future__ import annotations
 
-from app.models import PresetInfo
+from ace_step.models import PresetInfo
 
 _PRESETS: dict[str, PresetInfo] = {
     # --- ambient / atmospheric -------------------------------------------

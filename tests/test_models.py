@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from app.models import PresetInfo
+from ace_step.models import PresetInfo
 
 
 class TestPresetInfo:

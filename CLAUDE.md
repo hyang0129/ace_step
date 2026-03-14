@@ -21,8 +21,8 @@ Consumed by `video_agent` and potentially other repos in this workspace.
 ## Usage
 
 ```python
-from app.client import AceStepClient
-from app.presets import get_preset
+from ace_step.client import AceStepClient
+from ace_step.presets import get_preset
 
 client = AceStepClient(base_url="http://localhost:8001")
 preset = get_preset("documentary_ambient")
